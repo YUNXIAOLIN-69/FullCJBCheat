@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+     <AssemblyName>FullCJBCheat</AssemblyName>
+    <RootNamespace>YXLControllerCheats</RootNamespace>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <Reference Include="Stardew Valley">
+    <HintPath>/sdcard/StardewValley/Stardew Valley.dll</HintPath>
+  </Reference>
+  <Reference Include="StardewValley.Game">
+    <HintPath>/sdcard/StardewValley/StardewValley.Game.dll</HintPath>
+  </Reference>
+  <Reference Include="xTile">
+    <HintPath>/sdcard/StardewValley/xTile.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoGame.Framework">
+    <HintPath>/sdcard/StardewValley/MonoGame.Framework.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+  <ItemGroup>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

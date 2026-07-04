@@ -1,0 +1,10 @@
+{
+  "Name": "CJB作弊菜单",
+  "Author": "YXL",
+  "Version": "1.0.0",
+  "Description": "全复刻CJB功能，单行列表，LT/RT切换标签，传送页置顶联机玩家传送，滑块数值调节，原生手柄导航吸附",
+  "UniqueID": "YXL.FullCJBCheat",
+  "EntryDll": "FullCJBCheat.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
